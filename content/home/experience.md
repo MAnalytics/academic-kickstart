@@ -3,14 +3,16 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 7  # Order that this section will appear.
 
-title = "Experience"
-subtitle = ""
+title = "Work Experience"
+subtitle = "Industrial & Academic"
+
+#weight = 8
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+#date_format = "November 2018"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -18,27 +20,38 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Senior Research Associate"
+  company = "Crime and Well_Being Big Data Centre | Manchester Metropolitan University"
+  company_url = "https://www2.mmu.ac.uk/"
+  location = "United Kingdom"
+  date_start = "2018-04-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  #description = """ """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Research Fellow"
+  company = "School of Geography | University of Leeds"
+  company_url = "https://www.leeds.ac.uk/"
+  location = "United Kingdom"
+  date_start = "2017-02-01"
+  date_end = "2018-03-31"
+  #description = """ """
 
+[[experience]]
+  title = "Research & Assistant"
+  company = "Civil, Environmental and Geomatic Engr. Dept. | University College London"
+  company_url = "https://www.ucl.ac.uk/"
+  location = "United Kingdom"
+  date_start = "2014-01-01"
+  date_end = "2016-12-31"
+  #description = """ """
+
+[[experience]]
+  title = "Geomatics Consultant"
+  company = "Interspatial Technologies Ltd"
+  company_url = " "
+  location = "Lagos, Nigeria"
+  date_start = "2010-01-01"
+  date_end = "2011-08-30"
+  #description = """ """
 +++

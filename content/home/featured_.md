@@ -1,55 +1,35 @@
 +++
-# A Recent Blog Posts section created with the Pages widget.
-# This section displays recent blog posts from `content/post/`.
+# A Featured Publications section created with the Featured Content widget.
+# This section displays publications from `content/publication/` which have
+# `featured = true` in their front matter.
 
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+#widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+#headless = true  # This file represents a page section.
+#active = true  # Activate this widget? true/false
+#weight = 80  # Order that this section will appear.
 
-title = "Publications"
-subtitle = "Categories of"
+#title = "Featured Publications"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "publications"
+  page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
-  
-  # Choose how many pages you would like to offset by
-  offset = 0
+  count = 3
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-filter_default = 0
-  
-
-[[content.filter_button]]
-  name = "Pre-submission"
-  tag = "akmedoids"
-  
-[[content.filter_button]]
-  name = "Under-Review"
-  tag = "Delineators"
-
-[[content.filter_button]]
-  name = "Published"
-  tag = "Simulators"
-
-#[[content.filter_button]]
-#  name = "All"
-#  tag = "*"
+  # Show a "See all pages" link underneath the featured content?
+  link_to_archive = false
 
   # Filter posts by a taxonomy term.
-  #[content.filters]
-  #  tag = ""
-  #  category = ""
-  #  publication_type = ""
-  # author = ""
-  #exclude_featured = false
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+    author = ""
   
 [design]
   # Toggle between the various page layout types.
@@ -57,9 +37,7 @@ filter_default = 0
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  columns = 2
   view = 2
-  flip_alt_rows = true
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -88,3 +66,4 @@ filter_default = 0
  # CSS class.
  css_class = ""
 +++
+

@@ -2,17 +2,17 @@
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
 
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+#widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+#headless = true  # This file represents a page section.
+#active = true  # Activate this widget? true/false
+#weight = 60  # Order that this section will appear.
 
-title = "Publications"
-subtitle = "Categories of"
+title = "Recent Posts"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "publications"
+  page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5
@@ -23,33 +23,13 @@ subtitle = "Categories of"
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-filter_default = 0
-  
-
-[[content.filter_button]]
-  name = "Pre-submission"
-  tag = "akmedoids"
-  
-[[content.filter_button]]
-  name = "Under-Review"
-  tag = "Delineators"
-
-[[content.filter_button]]
-  name = "Published"
-  tag = "Simulators"
-
-#[[content.filter_button]]
-#  name = "All"
-#  tag = "*"
-
   # Filter posts by a taxonomy term.
-  #[content.filters]
-  #  tag = ""
-  #  category = ""
-  #  publication_type = ""
-  # author = ""
-  #exclude_featured = false
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+    author = ""
+    exclude_featured = false
   
 [design]
   # Toggle between the various page layout types.
@@ -57,9 +37,7 @@ filter_default = 0
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  columns = 2
   view = 2
-  flip_alt_rows = true
   
 [design.background]
   # Apply a background color, gradient, or image.

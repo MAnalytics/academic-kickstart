@@ -13,7 +13,9 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+theme = "Ocean"
+
+#color_theme = "ocean"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -104,21 +106,29 @@ directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+office_hours = ["Monday to Friday 10:00 to 17:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com"
 
+
+  # Details for the Contact Widget
+#  email = "monsuurg2010@gmail.com"
+#  address = "Crime & Well-Being Big Data Centre, Manchester Metropolitan University, M15 6BH, UK"
+#  office_hours = "9:00 to 6:00pm or email for appointment"
+#  phone = "+44(0)7477026254"
+#  keybase = ""  # Your keybase.io username.
+
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
-contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/AdepejuMonsuru"},
-  {icon = "github", icon_pack = "fab", name = "github", link = "https://github.com/MAnalytics"},
-  {icon = "google-scholar", icon_pack = "ai", name = "googlescholar", link = "https://scholar.google.co.uk/citations?user=GkJ_-00AAAAJ&hl=en"},
-  {icon = "linkedin", icon_pack = "fab", name = "linkedin", link = "https://www.linkedin.com/in/monsuru-adepeju-phd-02a46b27"},
-  {icon = "researchgate", icon_pack = "ai", name = "researchgate", link = "https://www.researchgate.net/profile/Monsuru_Adepeju"},
-  {icon = "envelope", icon_pack = "fas", name = "contact Me", link = "#contact"}
-  ]
+#contact_links = [
+#  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/AdepejuMonsuru"},
+#  {icon = "github", icon_pack = "fab", name = "github", link = "https://github.com/MAnalytics"},
+#  {icon = "google-scholar", icon_pack = "ai", name = "googlescholar", link = "https://scholar.google.co.uk/citations?user=GkJ_-00AAAAJ&hl=en"},
+#  {icon = "linkedin", icon_pack = "fab", name = "linkedin", link = "https://www.linkedin.com/in/monsuru-adepeju-phd-02a46b27"},
+#  {icon = "researchgate", icon_pack = "ai", name = "researchgate", link = "https://www.researchgate.net/profile/Monsuru_Adepeju"},
+#  {icon = "envelope", icon_pack = "fas", name = "contact Me", link = "#contact"}
+#  ]
 
 
 ############################
@@ -143,6 +153,9 @@ time_format = "3:04 PM"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
 address_format = "en-us"
+
+
+logo = "DataTekaHex.png"
 
 ############################
 ## Advanced
@@ -181,9 +194,9 @@ plugins_js  = []
 # Avatars.
 # An avatar is an image that appears next to a user's name.
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
-[avatar]
+#[myPics]
   # Get user avatars from Gravatar.com? (true/false)
-  gravatar = false
+  gravatar = true
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
@@ -255,7 +268,7 @@ plugins_js  = []
     app_id = ""
     api_key = ""
     index_name = ""
-    show_logo = false
+    show_logo = true
 
 ############################
 ## Maps

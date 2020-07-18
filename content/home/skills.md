@@ -18,19 +18,55 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+  description = "100%"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  description = "100%"
+  
+[[feature]]
+  icon = "globe-asia"
   icon_pack = "fas"
-  name = "Statistics"
+  name = "Geostatistics"
   description = "100%"  
+
+[[feature]]
+  icon = "google-wallet"
+  icon_pack = "fab"
+  name = "Spatiotemporal Modelling"
+  description = "100%"  
+
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "DBMS"
+  description = "100%"  
+
+[[feature]]
+  icon = "map-marked-alt"
+  icon_pack = "fas"
+  name = "Web App Development"
+  description = "100%"   
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "chart-area"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Crime Analytics"
+  description = "100%"
+  
+[[feature]]
+  icon = "code-branch"
+  icon_pack = "fas"
+  name = "Collaborative open-source coding"
+  description = "100%"
+
+[[feature]]
+  icon = "building"
+  icon_pack = "fas"
+  name = "Parallel Computing"
+  description = "100%"
 
 # Uncomment to use emoji icons.
 # [[feature]]
